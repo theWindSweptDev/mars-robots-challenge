@@ -54,7 +54,10 @@ LLFFFLFLFL
 Expected output:
 <img width="1330" height="861" alt="image" src="https://github.com/user-attachments/assets/dae55c48-9584-4b3a-a4b7-df163dd6c3fa" />
 
+## Unit Test
 
+Build unit_test as above or use the unit_tests.exe in the same directory as robot.exe
+The results are output to a textfile that outs the test_input.txt and test_output.txt
 
 ## License
 
