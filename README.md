@@ -1,2 +1,57 @@
-# mars-robots-challenge
-code challenge
+# Coding Challenge 2018 - Robot Grid
+
+This is a simple C++ console application simulating robot movement on a grid.  
+
+The user must set the upper right quadrant
+then input the starting position for example 1 1 E 
+before setting instructions to move forward, left or right (F, L R)
+
+The application will output lost if the robots moves off the grid and remember the scent to prevent the next robot from being lost
+once a robot is lost the user must input the start location of the next robot, however, this time the quadrant is not changed and the scents are remembered.
+
+The code was originally developed using Visual Studio 2018 on Windows.
+
+## Building and Running
+
+### Windows (Visual Studio 2018 or newer)
+
+1. Open the project folder in Visual Studio.
+2. Add `Source.cpp` to your project if not already present.
+3. Build the solution (`Ctrl+Shift+B`).
+4. Run the application (`F5` or via Debug > Start Debugging).
+
+### Linux / macOS (g++)
+
+> Note: Some libraries or code may require minor changes for non-Windows platforms.
+
+1. Open a terminal in the project directory.
+2. Compile the code:
+   ```sh
+   g++ -std=c++11 Source.cpp -o robot_grid
+   ```
+3. Run the application:
+   ```sh
+   ./robot_grid
+   ```
+
+## Notes
+
+- The code uses only standard C++ libraries (`iostream`, `csignal`).
+- If you encounter compilation errors on Linux/macOS, check for Windows-specific code and adjust as needed.
+- Input is expected via standard input (console).
+
+## Example Usage
+
+```
+5 3
+1 1 E
+RFRFRFRF
+3 2 N
+FRRFLLFFRRFLL
+0 3 W
+LLFFFLFLFL
+```
+
+## License
+
+This project is for educational purposes.
