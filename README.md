@@ -59,6 +59,11 @@ Expected output:
 Build unit_test as above or use the unit_tests.exe in the same directory as robot.exe
 The results are output to a textfile that outs the test_input.txt and test_output.txt
 
+please see the binarys_x64 folder (Typo!) for the binaries that has a built robot.exe, unit_test.exe as well as input and output results folder
+To see the unit test take a look at the tests.cpp file 
+
+Note that the test expects the file to be in the same directory and be called robot.exe!
+
 ## License
 
 This project is for educational purposes
