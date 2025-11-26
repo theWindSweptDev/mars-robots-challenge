@@ -51,7 +51,11 @@ FRRFLLFFRRFLL
 0 3 W
 LLFFFLFLFL
 ```
+Expected output:
+<img width="1330" height="861" alt="image" src="https://github.com/user-attachments/assets/dae55c48-9584-4b3a-a4b7-df163dd6c3fa" />
+
+
 
 ## License
 
-This project is for educational purposes.
+This project is for educational purposes
